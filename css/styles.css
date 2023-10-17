@@ -7,7 +7,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
-  width: 1440px;
 }
 
 h1 h2 h3 {
@@ -83,6 +82,8 @@ header {
   gap: 332px;
   padding-left: 156px;
   padding-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .navigation-block {
