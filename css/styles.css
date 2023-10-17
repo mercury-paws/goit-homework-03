@@ -1,0 +1,377 @@
+/*==================================COMMON STYLES================================== */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #434455;
+  width: 1440px;
+}
+
+h1 h2 h3 {
+  color: #2e2f42;
+}
+
+a {
+  text-decoration-line: none;
+  font-style: #434455;
+  font-style: normal;
+}
+
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+
+li {
+  list-style-type: none;
+}
+.second-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.third-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+/*================================== /COMMON STYLES================================== */
+
+/*==================================HEADER STYLES================================== */
+
+header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 1440px;
+  gap: 332px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+.navigation-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  gap: 76px;
+}
+
+.logo-header {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  padding-top: 25, 5px;
+  padding-bottom: 25, 5px;
+}
+.studio-class {
+  color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0px;
+}
+.menu-navigation {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.menu-navigation:hover,
+.menu-navigation:focus,
+.menu-navigation:active {
+  color: #404bbf;
+}
+
+.contact-us-list {
+  color: #434455;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 0px;
+  gap: 40px;
+}
+.address-styles {
+  color: #434455;
+}
+
+.contact-us {
+  color: #434455;
+}
+.contact-us:hover {
+  color: #404bbf;
+}
+
+/*================================== /HEADER STYLES================================== */
+
+/*==================================HERO STYLES================================== */
+.container-hero {
+  width: 1440px;
+  padding-left: 472px;
+  padding-right: 472px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-header {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  width: 496px;
+  height: 120px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.button-style {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  width: 169px;
+  height: 56px;
+}
+button:hover {
+  background-color: #404bbf;
+}
+
+button:focus {
+  background-color: #404bbf;
+}
+/*================================== /HERO STYLES================================== */
+
+/*==================================SECTION OUR SKILLS STYLES================================== */
+.our-skills {
+  background-color: #ffffff;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-our-skills {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.list-of-our-skills {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-right: 156px;
+  padding-left: 156px;
+  gap: 24px;
+}
+
+.list-of-out-skills-item {
+  border: 1px solid #000;
+  width: calc((100%-3 * 24) 4);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+.text-of-the-paragraphs-skills {
+  font-size: 16px;
+  width: 264px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*================================== /SECTION OUR SKILLS STYLES================================== */
+
+/*================================== SECTION TWO OUR TEAM STYLES================================== */
+
+.container-our-team {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 156px;
+  padding-left: 156px;
+  text-align: center;
+}
+.section-two-our-team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.list-of-our-team {
+  gap: 24px;
+  display: flex;
+
+  flex-direction: row;
+}
+.list-of-our-team-item {
+  background-color: #ffffff;
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc((100%-3 * 24) 4);
+}
+.text-of-the-paragraphs-team {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+img {
+  padding-bottom: 32px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*================================== /SECTION TWO OUR TEAM STYLES================================== */
+
+/*================================== SECTION THREE OUR PORTFOLIO STYLES================================== */
+.section-three-our-portfolio {
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-our-portfolio {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+.text-of-the-paragraphs-portfolio {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
+}
+.portfolio-list-item {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+
+  padding-bottom: 32px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+
+/*================================== /SECTION THREE OUR PORTFOLIO STYLES================================== */
+
+/*================================== FOOTER STYLES================================== */
+.footer {
+  background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+.footer-text {
+  color: #f4f4fd;
+  width: 264px;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+.container-footer {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 156px;
+  padding-right: 1020px;
+  width: 1440px;
+}
+.text-of-the-paragraphs {
+  font-size: 16px;
+}
+
+.portfolio-list-item {
+  background-color: #ffffff;
+}
+.logo-footer {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-bottom: 17.5px;
+}
+/*================================== /FOOTER STYLES================================== */
