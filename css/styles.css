@@ -164,7 +164,7 @@ header {
 
 .button-style {
   background-color: #4d5ae5;
-  display: inline-block;
+  display: block;
   cursor: pointer;
   color: #ffffff;
   font-size: 16px;
@@ -303,7 +303,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-list-item {
-  width: calc((100%-2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
   background-color: #ffffff;
 }
 .application-category-info {
@@ -317,7 +317,7 @@ img {
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
-  padding-right: auto;
+  padding-right: 0;
   padding-bottom: 100px;
   padding-left: 156px;
 }
