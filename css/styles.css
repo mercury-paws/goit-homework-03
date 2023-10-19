@@ -108,17 +108,17 @@ header {
   gap: 40px;
 }
 .menu-navigation {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 0;
   padding-left: 0;
 }
-
+.menu-navigation-list {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .menu-navigation:hover,
 .menu-navigation:focus,
