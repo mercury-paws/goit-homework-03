@@ -69,6 +69,8 @@ img {
 
 header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .container-header {
@@ -105,7 +107,7 @@ header {
   align-items: baseline;
   gap: 40px;
 }
-.menu-navigation-list {
+.menu-navigation {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
