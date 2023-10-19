@@ -91,7 +91,6 @@ header {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-
   margin-right: 76px;
   padding: 24px 0;
 }
@@ -128,6 +127,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
   gap: 40px;
+  padding: 24px 0;
 }
 .address-styles {
   color: #434455;
