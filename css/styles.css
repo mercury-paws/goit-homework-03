@@ -69,8 +69,6 @@ img {
 
 header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .container-header {
@@ -96,6 +94,7 @@ header {
   padding-top: 25, 5px;
   padding-bottom: 25, 5px;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .studio-class {
   color: #2e2f42;
@@ -115,7 +114,9 @@ header {
   letter-spacing: 0.32px;
   padding: 24px 0;
 }
-
+.menu-navigation-list {
+  padding: 24px 0;
+}
 .menu-navigation:hover,
 .menu-navigation:focus,
 .menu-navigation:active {
