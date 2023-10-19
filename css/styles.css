@@ -108,18 +108,14 @@ header {
   gap: 40px;
 }
 .menu-navigation {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-right: 0;
-  padding-left: 0;
-}
-.menu-navigation-list {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
+
 .menu-navigation:hover,
 .menu-navigation:focus,
 .menu-navigation:active {
@@ -139,6 +135,7 @@ header {
 
 .contact-us {
   color: #434455;
+  padding: 24px 0;
 }
 .contact-us:hover {
   color: #404bbf;
